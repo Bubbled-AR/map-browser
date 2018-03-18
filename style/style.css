@@ -1,0 +1,154 @@
+/* MDL OVERRIDES */
+
+body,
+footer {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.mdl-textfield__input {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-64 { font-size: 64px; }
+.material-icons.md-128 { font-size: 128px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+/* custom icon colours*/
+.material-icons.red900 { color: #B71C1C; }
+.material-icons.orange600 { color: #FB8C00; }
+.material-icons.green600 { color: #43A047; }
+.material-icons.blue600 { color: #1E88E5 }
+
+.button-group .mdl-button {
+  margin-top: 30px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+/* HELPER STYLES */
+
+.center-input,
+.center-text {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.vertical-align-middle {
+  vertical-align: middle;
+  padding-top: auto;
+  padding-bottom: auto;
+}
+
+.msg-error {
+  color: #B71C1C;
+  text-align: center;
+}
+
+.msg-error .input-error {
+  font-family: 'Roboto', sans-serif;
+  vertical-align: sub;
+}
+
+.msg-error .form-error {
+  vertical-align: middle;
+}
+
+.msg-success {
+  color: #00c116;
+}
+
+/* GENERIC STYLES */
+
+.register-notice-group,
+.back-link {
+  text-align: center;
+  vertical-align: bottom;
+  margin-top: 100px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+/* LOGO HEADER */
+
+.logo-header {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row /* works with row or column */;
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.logo-header img {
+  width: 100%;
+  max-width: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* LOGIN SCREENS */
+
+.sub-menu {
+  padding-top: 40px;
+  opacity: 0.7;
+}
+
+/* MAP BROWSER */
+
+/* Always set the map height explicitly to define the size of the div
+  * element that contains the map. */
+#map {
+  min-height: 800px;
+  height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.mdl-textfield__expandable-holder,
+.map-search-bar {
+  width: 100%;
+}
+
+.purchase-group {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.purchase-group > .mdl-textfield {
+  width: 400px;
+}
+
+/* PURCHASE */
+
+.purchase-message
+.purchase-error {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
